@@ -1,0 +1,65 @@
+body {
+	background-color: #AFEEEE;
+}
+
+h1 {
+	padding: 20px;
+	background-color: orange;
+	width: 350px;
+	text-align: center;
+}
+
+#para {
+	height: 300px;
+	width: 400px;
+	background-color: #EEE8AA;
+
+}
+
+#winsLosses {
+	height: 100px;
+	width: 100px;
+	background-color: #FFE4C4;
+	margin-top: 100px;
+}
+
+#compRanNum {
+	height: 100px;
+	width: 100px;
+	background-color: teal;
+}
+
+#crystal-0 {	
+	height: 100px;
+	width: 100px;
+	background-color: red;
+	float: left;
+}
+
+#crystal-1 {
+	height: 100px;
+	width: 100px;
+	background-color: green;
+	float: left;
+}
+
+#crystal-2 {
+	height: 100px;
+	width: 100px;
+	background-color: blue;
+	float: left;
+}
+
+#crystal-3 {
+	height: 100px;
+	width: 100px;
+	background-color: yellow;
+	float: left;
+}
+
+#yourScore {
+	height: 100px;
+	width: 100px;
+	background-color: #8A2BE2;
+	clear: both;
+}
