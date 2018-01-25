@@ -13,44 +13,49 @@ h1 {
 	height: 300px;
 	width: 400px;
 	background-color: #EEE8AA;
-
 }
 
-#winsLosses {
+.winner {
 	height: 100px;
 	width: 100px;
 	background-color: #FFE4C4;
 	margin-top: 100px;
 }
 
-#compRanNum {
+.loser {
+	height: 100px;
+	width: 100px;
+	background-color: #FFE4C4;
+}
+
+.computer {
 	height: 100px;
 	width: 100px;
 	background-color: teal;
 }
 
-#crystal-0 {	
+.crystal1 {	
 	height: 100px;
 	width: 100px;
 	background-color: red;
 	float: left;
 }
 
-#crystal-1 {
+.crystal2 {
 	height: 100px;
 	width: 100px;
 	background-color: green;
 	float: left;
 }
 
-#crystal-2 {
+.crystal3 {
 	height: 100px;
 	width: 100px;
 	background-color: blue;
 	float: left;
 }
 
-#crystal-3 {
+.crystal4 {
 	height: 100px;
 	width: 100px;
 	background-color: yellow;
