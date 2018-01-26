@@ -1,70 +1,86 @@
 body {
-	background-color: #AFEEEE;
+	background-color: #A9A9A9;
 }
 
 h1 {
-	padding: 20px;
-	background-color: orange;
-	width: 350px;
+	background-color: #9932CC;
 	text-align: center;
+	border: solid black 2px;
+	margin-bottom: 10px;
+    width: 50%;
+    border: 3px solid black;
+    padding: 10px;
+    border-radius: 7px;
 }
 
 #para {
-	height: 300px;
-	width: 400px;
-	background-color: #EEE8AA;
+	height: 225px;
+	background-color: #87CEEB;
+	text-align: center;
+	margin-bottom: 10px;
+    width: 50%;
+    border: 3px solid black;
+    padding: 10px;
+    border-radius: 7px;
+    font-weight: bold;
 }
 
 .winner {
-	height: 100px;
+	height: 60px;
 	width: 100px;
-	background-color: #FFE4C4;
-	margin-top: 100px;
+	background-color: #00FFFF;
+	text-align: center;
+	margin-bottom: 10px;
+    width: 25%;
+    border: 3px solid black;
+    padding: 10px;
+    border-radius: 7px;
 }
 
 .loser {
-	height: 100px;
-	width: 100px;
-	background-color: #FFE4C4;
+	height: 60px;
+	background-color: #00FFFF;
+	text-align: center;
+	margin-bottom: 10px;
+    width: 25%;
+    border: 3px solid black;
+    padding: 10px;
+    border-radius: 7px;
+
 }
 
 .computer {
-	height: 100px;
-	width: 100px;
-	background-color: teal;
+	height: 60px;
+	background-color: #7FFF00;
+	text-align: center;
+	margin-bottom: 10px;
+    width: 25%;
+    border: 3px solid black;
+    padding: 10px;
+    border-radius: 7px;
+
 }
 
-.crystal1 {	
+.crystal {	
 	height: 100px;
-	width: 100px;
-	background-color: red;
-	float: left;
+	width: 100px;*/
+	text-align: center;
+	margin-bottom: 10px;
+    border: 3px solid black;
+    border-radius: 7px;
+	
 }
 
-.crystal2 {
-	height: 100px;
-	width: 100px;
-	background-color: green;
-	float: left;
-}
 
-.crystal3 {
-	height: 100px;
-	width: 100px;
-	background-color: blue;
-	float: left;
-}
-
-.crystal4 {
-	height: 100px;
-	width: 100px;
-	background-color: yellow;
-	float: left;
-}
-
-#yourScore {
-	height: 100px;
-	width: 100px;
+.yourScore {
+	height: 60px;
 	background-color: #8A2BE2;
+	text-align: center;
 	clear: both;
+	font-size: 18px;
+	margin-bottom: 10px;
+    width: 25%;
+    border: 3px solid black;
+    padding: 10px;
+    border-radius: 7px;
 }

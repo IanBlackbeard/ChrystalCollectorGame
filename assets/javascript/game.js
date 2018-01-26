@@ -13,10 +13,13 @@ document.addEventListener("DOMContentLoaded", function(event) {
 	// Generates random number for each crystal
 	var num1 = Math.floor((Math.random() * 11) + 1);
 	console.log("crystalOne " + "= " + num1)
+
 	var num2 = Math.floor((Math.random() * 11) + 1);
 	console.log("crystalTwo " + "= " + num2)
+
 	var num3 = Math.floor((Math.random() * 11) + 1);
 	console.log("crystalThree " + "= " + num3)
+
 	var num4 = Math.floor((Math.random() * 11) + 1);
 	console.log("crystalFour " + "= " + num4)
 
@@ -25,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 	var wins = 0
 	var losses = 0;
 	var userTotal = 0;
-    // Appends wins and losses and userTotal to page for user to see
+    //Appends wins and losses and userTotal to page for user to see
 	$('#wins').text(wins);
 	$('#losses').text(losses);
 	$('#yourScore').text(userTotal);
@@ -36,12 +39,17 @@ document.addEventListener("DOMContentLoaded", function(event) {
 		compRandomNumber = Math.floor((Math.random() * 101) + 19);
 		$('#compRandomNumber').text(compRandomNumber);
 		num1 = Math.floor((Math.random() * 11) + 1);
+		console.log("crystalOne " + "= " + num1)
 		num2 = Math.floor((Math.random() * 11) + 1);
+		console.log("crystalTwo " + "= " + num2)
 		num3 = Math.floor((Math.random() * 11) + 1);
+		console.log("crystalThree " + "= " + num3)
 		num4 = Math.floor((Math.random() * 11) + 1);
-		$('#wins').text(wins);
-	    $('#losses').text(losses);
-		$('#yourScore').text(userTotal);
+		console.log("crystalFour " + "= " + num4)
+		userTotal = 0;
+		// $('#wins').text(wins);
+	 	//$('#losses').text(losses);
+		// $('#yourScore').text(userTotal);
     }
 
     // Alert the user WIN and adds to the win counter on screen
@@ -60,8 +68,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
     	reset();
     }
 
-// On crystal click function
-	// Crystal one 
 	$('#num1').on('click', function (){
 		userTotal = userTotal + num1;
 		$('#yourScore').text(userTotal);
@@ -110,6 +116,21 @@ document.addEventListener("DOMContentLoaded", function(event) {
 		}
 	});
 });
+// On crystal click function
+// 	Crystal one 
+// 	$('.crystal').on('click', function (){
+// 		var crystalClickedID = $(this).attr("id");
+// 		userTotal = userTotal + arrayOfCrystals[crystalClickedID];
+// 		$('#yourScore').text(userTotal);
+// 		console.log("Your new score " + "= " + userTotal);
+// 			if (userTotal == compRandomNumber){
+// 				yay();
+// 			}
+// 			else if (userTotal > compRandomNumber){
+// 				loser();
+// 			}
+// 	})
+
 
         // Figure out what crystal they clicked and store in a variable
         // Store crystal value in variable (crystalClickedValue)

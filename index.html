@@ -15,23 +15,45 @@
 		<p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
 		<p>The value of each crystal is hidden from you until you click on it.</p>
 		<p>Each time when the game starts, the game will change the values of each crystal.</p>
-	<div>
+	</div>
 		
-		<div id="wins" class="winner">Wins: </div>
-		<div id="losses" class="loser">Losses: </div>
-		<div id="compRandomNumber" class="computer">Number to get: </div>
+		<div class="winner">
+			<h2>Wins:
+				<span id="wins" ></span>
+			</h2>
+		</div>
+		
+		<div class="loser">
+			<h2>Losses:
+				<span id="losses" ></span>
+			</h2>
+		</div>
 
-		<div id="num1" class="crystal1"></div>
-		<div id="num2" class="crystal2"></div>
-		<div id="num3" class="crystal3"></div>
-		<div id="num4" class="crystal4"></div>
+		<div class="computer">
+			<h2>Number to get:
+				<span id="compRandomNumber" ></span>
+			</h2>
+		</div>
+		
+
+		
+			<img src="assets/images/image (1).png" width="500" height="600" id="num1" class="crystal">
+			<img src="assets/images/image (2).png" width="500" height="600" id="num2" class="crystal">
+			<img src="assets/images/image (3).png" width="500" height="600" id="num3" class="crystal">
+			<img src="assets/images/image.png" width="500" height="600" id="num4" class="crystal">
 
 		<!-- <a href="#"><img src="assets/images/images.png" class="social" alt="GitHub" /></a> -->
+<!-- 
+		<div id="yourScore" class="yourScore"></div> -->
+		<div class="yourScore">
+			<h2>Your Score:
+				<span id="yourScore" ></span>
+			</h2>
+		</div>
 
-		<div id="yourScore"></div>
-
-		<script type="text/javascript" src="assets/javascript/game.js"></script>
+	
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script type="text/javascript" src="assets/javascript/game.js"></script>
 
 </body>
 </html> 
