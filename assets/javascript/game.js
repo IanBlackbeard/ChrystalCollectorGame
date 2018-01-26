@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 		userTotal = 0;
 		// $('#wins').text(wins);
 	 	//$('#losses').text(losses);
-		// $('#yourScore').text(userTotal);
+		$('#yourScore').text(userTotal);
     }
 
     // Alert the user WIN and adds to the win counter on screen
